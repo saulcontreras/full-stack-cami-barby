@@ -21,6 +21,16 @@
     AYUDA: al validar la edad hacerlo con el sig segmento -> if(varEdad > "21")
     */
 
+    var nombre = prompt("Ingrese su nombre:");
+    var edad = prompt("Ingrese su edad");
+
+    if (edad > 18) {
+        document.write(`${nombre} tiene ${edad} años, puede ingresar sin problemas`)
+    } else {
+        document.write(`${nombre} es menor de edad, no puede ingresar al salón`)
+    }
+
+
 
 </script>
 
