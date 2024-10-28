@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    /*
+        Se necesita que el usuario ingrese un número
+        el sistema mostrará todos los números desde 
+        el 0 al numero ingresado
+    */
+
+    var numero = prompt("Pon un número");
+    
+    
+    /*Estructura bucle FOR*/
+    for (
+        let index = 0; /* paso 1) variable de control */
+        index <= numero; /* paso 2) validación de condición */
+        index++ /* paso 4) incremento de la variable de control para no tener un bucle infinito*/
+        ) 
+    { 
+        document.write(index); /*paso 3) si el paso 2 = verdadero encontes ejecutamos el bloque, de lo contrario el bucle finaliza.*/
+    }
+
+    
+
+</script>
+
+</html>
